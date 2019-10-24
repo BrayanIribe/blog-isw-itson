@@ -36,22 +36,22 @@ export default {
     this.slides.push({
       caption: '🏠 Fase de Inicio',
       text: '',
-      src: '/assets/Diapositiva1.PNG'
+      src: 'assets/Diapositiva1.PNG'
     })
     this.slides.push({
       caption: '🔧 Fase de Elaboración',
       text: '',
-      src: '/assets/Diapositiva2.PNG'
+      src: 'assets/Diapositiva2.PNG'
     })
     this.slides.push({
       caption: '🏗️ Fase de Construcción',
       text: '',
-      src: '/assets/Diapositiva3.PNG'
+      src: 'assets/Diapositiva3.PNG'
     })
     this.slides.push({
       caption: '😄 Fase de Transición',
       text: '',
-      src: '/assets/Diapositiva4.PNG'
+      src: 'assets/Diapositiva4.PNG'
     })
   }
 }
