@@ -19,6 +19,16 @@
           :img-src='slide.src'
         ></b-carousel-slide>
       </b-carousel>
+      <p class='mt-3'>
+        <a
+          href='https://www.itson.mx/oferta/isw/Documents/mapa_isw2016_v4_seriacion_simplificada_febrero2017.pdf'
+        >Ver mapa curricular oficial del ITSON 2016.</a>
+      </p>
+      <p>
+        <a
+          href='https://www.itson.mx/oferta/isw/Paginas/isw.aspx'
+        >Ir a la oferta académica de ISW del ITSON.</a>
+      </p>
     </b-container>
     <Footer></Footer>
   </div>
@@ -33,6 +43,11 @@ export default {
     }
   },
   created() {
+    this.slides.push({
+      caption: '🏠 Mapa curricular de Ingeniería en Software plan 2016 ITSON',
+      text: '',
+      src: 'assets/mapa.png'
+    })
     this.slides.push({
       caption: '🏠 Fase de Inicio',
       text: '',

@@ -1,18 +1,10 @@
 <template>
-  <div>
+  <div style='width:100%;'>
     <div class='row footer'>
-      <div class='col-sm-6 thanks-to'>
+      <div class='col-sm-12 thanks-to'>
         <a href='https://itson.mx' class='logo itson'></a>
         <a href='https://vuejs.org' class='logo vue'></a>
         <a href='https://github.com/BrayanIribe' class='logo github'></a>
-      </div>
-      <div class='col-sm-6 info'>
-        <p>Hecho con ❤️ por Brayan Iribe, Alexa Mavely, Rafael Soqui, Paul Becerra y Daniel Chafino.</p>
-        <p>
-          Este blog fue creado a partir de una asignación de la asignatura Ingeniería en Software en el ITSON durante el segundo
-          parcial en el semestre 2019-B.
-        </p>
-        <p>Docente: 👨‍🏫️ Verónica Sierra García.</p>
       </div>
     </div>
   </div>
@@ -59,6 +51,7 @@ export default {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  width: 100%;
 }
 
 .logo.itson {

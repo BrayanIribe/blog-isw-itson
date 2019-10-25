@@ -58,55 +58,55 @@ export default {
     // disclipinas
 
     this.add(
-      'Modelado de negocio',
+      '👨‍💼️ Modelado de negocio',
       'https://1.bp.blogspot.com/-t8ioB2dS874/XbCcVbPw7iI/AAAAAAAAAqc/3j_4-nyG1tIWqH-qkleJJX5grDnnTmM4ACEwYBhgL/s1600/meeting_1r8.png',
       1
     )
 
     this.add(
-      'Requerimientos',
+      '📝 Requerimientos',
       'https://1.bp.blogspot.com/-8vSfodPTHhE/XbCcUAJjgvI/AAAAAAAAAqg/oV6lBIQtHiIrq0QqKOgOwxkqWifnLivaACEwYBhgL/s1600/KarlaRequerimientos1200Comprimido.jpg',
       1
     )
 
     this.add(
-      'Análisis y diseño',
+      '📊 Análisis y 🎨 Diseño',
       'https://1.bp.blogspot.com/-wS9US79LzWI/XbCcVFIevWI/AAAAAAAAAqc/49bXFYFB36QdbE1xnMlgA3mx-BmUiAgpQCEwYBhgL/s1600/ingenieria.png',
       1
     )
 
     this.add(
-      'Implementación',
+      '👨‍💻️ Implementación',
       'https://1.bp.blogspot.com/-QPZDg026aJk/XbCcVs9vqwI/AAAAAAAAAqc/AZcx79Zh6TYVIuEBFOjyY5sM55-SZz3UACEwYBhgL/s1600/trabajo-colaborativo-dise-o-desarrollo-web-4_orig.png',
       1
     )
 
     this.add(
-      'Pruebas',
+      '📝 Pruebas',
       'https://1.bp.blogspot.com/-L3YTgZLPBis/XbCcUEwOo_I/AAAAAAAAAqM/ctG1Dy96SRgLl24tkTpjK8ZlAQc4iQWYgCEwYBhgL/s1600/Prueba-de-usabilidad-movil.png',
       1
     )
 
     this.add(
-      'Despliegue',
+      '🚀 Despliegue',
       'https://1.bp.blogspot.com/-lN48aNVR4r0/XbCcVD9o_4I/AAAAAAAAAqk/9Bs9w2-w2scMCNdGJGgbY4L-NOPZyR3HACEwYBhgL/s1600/man-1351346_960_720.png',
       1
     )
 
     this.add(
-      'Gestión del proyecto',
+      '💼 Gestión del proyecto',
       'https://1.bp.blogspot.com/-m6TEcMac29Q/XbCcU_pX8tI/AAAAAAAAAqU/-UjB_u10Ego6DWw3zKEv9srOrjQ5OQhUACEwYBhgL/s1600/depositphotos_71550381-stock-illustration-business-management-meeting.jpg',
       1
     )
 
     this.add(
-      'Configuración y control de cambios',
+      '🛠️ Configuración y control de cambios',
       'https://1.bp.blogspot.com/-gmQA5n7DL1o/XbCcUIrIXyI/AAAAAAAAAqQ/uflLUkEMkbU-7CATkbgoUnMK3LBQQDH1ACEwYBhgL/s1600/51022789-la-configuraci%25C3%25B3n-del-programa-icono-de-dibujos-animados-.jpg',
       1
     )
 
     this.add(
-      'Ambiente',
+      '🌎 Ambiente',
       'https://1.bp.blogspot.com/-nNuNJd4wCWI/XbCcUoQkITI/AAAAAAAAAqY/ezfSETgf1eEqAJEQNs92d1fDqdME0djeQCEwYBhgL/s1600/contenidotexto.jpg',
       1
     )

@@ -2,13 +2,15 @@
   <div style='width:100%;padding-top:8%;'>
     <div class='main'>
       <div class='body'>
-        <div class='title'>👨‍💻️ RUP</div>
+        <div class='title'>👪 Acerca de</div>
         <div class='info'>
-          <p class='phase'>
-            Bienvenido a nuestro blog! Disfruta de su contenido.
-            Selecciona una de las opciones que aparecen arriba.
+          <p class='block mt-3'>
+            Este blog fue creado a partir de una asignación de la materia Ingeniería en Software en el ITSON durante el segundo
+            parcial en el semestre 2019-B.
           </p>
+          <p class='block mt-3'>👨‍🏫️ Docente: Verónica Sierra García.</p>
         </div>
+        <Footer></Footer>
       </div>
     </div>
   </div>
@@ -16,11 +18,11 @@
 
 <script>
 export default {
-  name: 'Home'
+  name: 'About'
 }
 </script>
 
-<style lang='scss' scoped>
+<style lang="scss" scoped>
 .what-is {
   font-size: 200%;
   padding-left: 20px;
@@ -35,7 +37,7 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 10vh;
+  padding-top: 5vh;
 }
 .phase,
 .sub-phase {
@@ -74,7 +76,7 @@ export default {
 
   .title {
     user-select: none;
-    font-size: 800%;
+    font-size: 700%;
     font-weight: normal;
   }
 }

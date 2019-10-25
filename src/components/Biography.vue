@@ -5,18 +5,21 @@
       <div class='quote'>
         <slot></slot>
       </div>
-      <a :href='href'>{{ href }}</a>
+      <a :href='href' :class='{"white": this.white === "yes"}'>{{ href }}</a>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  props: ['src', 'href'],
+  props: ['src', 'href', 'white', 'bgcolor'],
   name: 'Biography',
   computed: {
     image() {
-      return `background-image: url('${this.src}')`
+      return (
+        `background-image: url('${this.src}'); ` +
+        (this.bgcolor ? 'background-color: ' + this.bgcolor : '')
+      )
     }
   }
 }
@@ -37,7 +40,7 @@ export default {
 .pic {
   width: 150px;
   height: 150px;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -50,9 +53,14 @@ export default {
   justify-content: space-around;
   align-items: flex-start;
   flex-direction: column;
+  word-break: break-all;
 }
 
 .quote {
   text-align: justify;
+}
+
+.white {
+  color: white !important;
 }
 </style>

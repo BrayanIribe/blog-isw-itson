@@ -4,14 +4,12 @@ html,
 body,
 #app {
   width: 100%;
-  height: 100%;
   margin: 0;
   padding: 0;
 }
 
-body,
-#app {
-  min-height: 100%;
+html {
+  overflow-y: scroll;
 }
 
 body {
@@ -41,7 +39,7 @@ body {
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.7);
   font-weight: lighter;
-  font-size: 130%;
+  font-size: 100%;
   transition: 0.25s;
 
   &:hover {
