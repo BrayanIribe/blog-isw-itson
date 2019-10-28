@@ -3,19 +3,24 @@
     <b-container class='main' style='text-align:center;'>
       <h2 class='phase mb-4'>🔁 Fases del RUP</h2>
       <hr />
-      <div class='mb-3' v-for='(fase, i) in fases' v-bind:key='"a"+i'>
-        <div class='tag-name'>{{ fase.name }}</div>
-        <b-img :src='fase.src' fluid-grow></b-img>
+      <div class='row'>
+        <div class='col-6 mb-3' v-for='(fase, i) in fases' v-bind:key='"a"+i'>
+          <div class='tag-name'>{{ fase.name }}</div>
+          <b-img :src='fase.src' fluid-grow></b-img>
+        </div>
       </div>
+      <hr />
       <h2 class='phase mb-4'>👨‍🔧️ Disciplinas del RUP</h2>
       <hr />
-      <div
-        class='mb-3'
-        v-for='(disciplina, i) in disciplinas'
-        v-bind:key='"b"+i'
-      >
-        <div class='tag-name red'>{{ disciplina.name }}</div>
-        <b-img :src='disciplina.src' fluid></b-img>
+      <div class='row'>
+        <div
+          class='col-6 mb-3'
+          v-for='(disciplina, i) in disciplinas'
+          v-bind:key='"b"+i'
+        >
+          <div class='tag-name red'>{{ disciplina.name }}</div>
+          <b-img :src='disciplina.src' fluid></b-img>
+        </div>
       </div>
     </b-container>
     <Footer></Footer>

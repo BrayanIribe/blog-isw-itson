@@ -1,13 +1,24 @@
 <template>
   <div style='width:100%;padding-top:8%;'>
+    <transition name='fade'>
+      <b-list-group class='floating-navbar' v-if='showBookmarks'>
+        <b-list-group-item href='#rup'>👨‍💻️ RUP</b-list-group-item>
+        <b-list-group-item href='#caracteristicas'>📜 Características</b-list-group-item>
+        <b-list-group-item href='#ciclo-de-vida'>🍃 Ciclo de vida</b-list-group-item>
+        <b-list-group-item href='#disciplinas'>👨‍🔧️ Disciplinas</b-list-group-item>
+        <b-list-group-item href='#flujo-de-trabajo'>💼 Flujo de trabajo</b-list-group-item>
+        <b-list-group-item href='#roles'>👨‍💻 Roles</b-list-group-item>
+        <b-list-group-item href='#bibliografias'>📕 Bibliografías</b-list-group-item>
+      </b-list-group>
+    </transition>
     <div class='main'>
       <div class='body'>
-        <div class='title'>👨‍💻️ RUP</div>
+        <div class='title' id='rup'>👨‍💻️ RUP</div>
         <div class='info'>
           <p
             class='block'
           >El presente blog se refiere al tema “Rational Unified Process (RUP)” el cual puede ser definido como un proceso de ingeniería de software, para producir software de calidad, que cumpla con las normas a nivel mundial y que ofrezca flexibilidad en plazos y presupuestos.</p>
-          <p class='phase center mb-4'>📜 Características</p>
+          <p class='phase center mb-4' id='caracteristicas'>📜 Características</p>
           <p class='sub-phase mb-4'>🏢 Dirigido por Casos de Uso</p>
           <p
             class='block'
@@ -21,7 +32,7 @@
             Cada mini proyecto es una iteración que resulta en un incremento.
             Las iteraciones hace referencia a pasos en el flujo de trabajo, y los incrementos a crecimientos en el producto. Las iteraciones deben estar controladas, esto significa que deben seleccionarse y ejecutarse de una forma planificada.
           </p>
-          <p class='phase center mb-4'>🍃 Ciclo de vida</p>
+          <p class='phase center mb-4' id='ciclo-de-vida'>🍃 Ciclo de vida</p>
           <p
             class='block'
           >El ciclo de vida del software del RUP se descompone en cuatro fases secuenciales. En cada extremo de una fase se realiza una evaluación para determinar si los objetivos de la fase se han cumplido. Una evaluación satisfactoria permite que el proyecto se mueva a la próxima fase.</p>
@@ -46,7 +57,11 @@
             principalmente incluye pruebas, la preparación del producto para su entrega y ajustes
             menores debido a la retroalimentación del usuario.
           </p>
-          <p class='phase mb-4'>👨‍🔧️ Disciplinas</p>
+          <p
+            class='phase mb-4'
+            id='disciplinas'
+            name='disciplinas'
+          >👨‍🔧️ Disciplinas</p>
           <p
             class='block'
           >Cada disciplina es un conjunto de actividades relacionadas (flujos de trabajo) vinculadas a un área específica dentro del proyecto total. A continuación se describe rápidamente cada una de estas disciplinas.</p>
@@ -91,11 +106,11 @@
             class='block mb-4'
           >Un producto o artefacto es un trozo de información que es producido, modificado o usado durante el proceso de desarrollo de software.</p>
 
-          <p class='phase mb-4'>💼 Flujo de trabajo</p>
+          <p class='phase mb-4' id='flujo-de-trabajo'>💼 Flujo de trabajo</p>
           <p
             class='block mb-4'
           >Un flujo de trabajo describe la secuencia en que se realizan las actividades en una disciplina, quienes la realizan (trabajadores) y que artefactos producen.</p>
-          <p class='phase mb-4'>👨‍💻 Roles</p>
+          <p class='phase mb-4' id='roles'>👨‍💻 Roles</p>
           <p
             class='block'
           >Son los personajes encargados de la realización de las actividades definidas dentro de los flujos de trabajo de cada una de las disciplinas del RUP, estos actores se dividen en varias categorías.</p>
@@ -123,7 +138,7 @@
           <p
             class='block'
           >Estas personas pueden desempeñar cualquier rol, como desarrollador, gestor, etc.</p>
-          <p class='phase mb-4'>📕 Bibliografías</p>
+          <p class='phase mb-4' id='bibliografias'>📕 Bibliografías</p>
           <Biography
             src='http://dsc.itmorelia.edu.mx/web/images/logo.png'
             href='http://dsc.itmorelia.edu.mx/~jcolivares/courses/pm10a/rup.pdf'
@@ -180,7 +195,21 @@
 
 <script>
 export default {
-  name: 'RUP'
+  name: 'RUP',
+  data() {
+    return {
+      showBookmarks: true
+    }
+  },
+  created() {
+    if (
+      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+        navigator.userAgent
+      )
+    ) {
+      this.showBookmarks = false
+    }
+  }
 }
 </script>
 
@@ -215,12 +244,13 @@ export default {
 .phase,
 .sub-phase {
   font-size: 200%;
-  text-align: center !important;
+  text-align: center;
   width: 100%;
 }
 
 .sub-phase {
-  font-size: 190%;
+  font-size: 150%;
+  text-align: left;
 }
 .body > .info {
   width: 100%;

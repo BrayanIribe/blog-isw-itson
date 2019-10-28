@@ -8,6 +8,64 @@ body,
   padding: 0;
 }
 
+.to-up-bt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  background-color: #f1c40f;
+  bottom: 25px;
+  right: 25px;
+  border-radius: 75px;
+  position: fixed;
+  z-index: 9999;
+  font-size: 30px;
+  transition: 0.25s;
+  color: black;
+
+  &:hover {
+    color: white;
+    background-color: #d35400;
+  }
+}
+
+.floating-navbar {
+  position: fixed;
+  top: 60px;
+  left: 50px;
+  background-color: transparent;
+}
+
+.floating-navbar > .list-group-item {
+  background: transparent;
+  border: 0px;
+  border: 2px solid white;
+  margin-bottom: 15px;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  padding-left: 10px;
+  border-radius: 100px;
+  transition: 0.25s;
+
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+
+  a {
+    width: 100% !important;
+    height: 100% !important;
+    background-color: red;
+    color: inherit;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+}
+
 html {
   overflow-y: scroll;
 }

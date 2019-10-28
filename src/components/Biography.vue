@@ -35,6 +35,7 @@ export default {
   align-items: center;
   justify-content: space-around;
   padding: 50px;
+  overflow-y: auto;
 }
 
 .pic {

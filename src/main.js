@@ -8,11 +8,17 @@ import routes from "./routes";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Biography from "./components/Biography";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import "./assets/styles.scss";
 
 Vue.config.productionTip = false;
 Vue.prototype.$routes = routes;
 Vue.use(BootstrapVue);
+
+library.add(faChevronUp);
+Vue.component("font-awesome-icon", FontAwesomeIcon);
 
 Vue.component("NavBar", NavBar);
 Vue.component("Footer", Footer);
