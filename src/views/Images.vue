@@ -23,7 +23,6 @@
         </div>
       </div>
     </b-container>
-    <Footer></Footer>
   </div>
 </template>
 
@@ -53,7 +52,7 @@ export default {
     )
     this.add(
       '🏗️ Construcción',
-      'https://1.bp.blogspot.com/-kru_5PEQVYk/XbCX7JgnsII/AAAAAAAAAo8/zZxOTUkZaM4Nf6nlTv61MKI3tojZnlCgwCEwYBhgL/s1600/-tips-para-ayudarte-a-comenzar-a-escribir-la-tesis-jpg-.jpg'
+      'https://media.istockphoto.com/vectors/webpage-building-and-software-technology-development-vector-id898623886'
     )
     this.add(
       '😄 Transición',
@@ -76,7 +75,7 @@ export default {
 
     this.add(
       '📊 Análisis y 🎨 Diseño',
-      'https://1.bp.blogspot.com/-wS9US79LzWI/XbCcVFIevWI/AAAAAAAAAqc/49bXFYFB36QdbE1xnMlgA3mx-BmUiAgpQCEwYBhgL/s1600/ingenieria.png',
+      'https://www.juangalera.com/wp-content/uploads/2017/08/disen%CC%83o-web-jerez-de-la-frontera-desarrollo-web.jpg',
       1
     )
 
@@ -88,7 +87,7 @@ export default {
 
     this.add(
       '📝 Pruebas',
-      'https://1.bp.blogspot.com/-L3YTgZLPBis/XbCcUEwOo_I/AAAAAAAAAqM/ctG1Dy96SRgLl24tkTpjK8ZlAQc4iQWYgCEwYBhgL/s1600/Prueba-de-usabilidad-movil.png',
+      'https://www.criptomonedaseico.com/wp-content/uploads/2018/09/www.criptomonedaseico.com-crisis-de-bitcoin-evitada-por-el-descubrimiento-de-errores-de-software-750x430.jpg',
       1
     )
 
@@ -106,7 +105,7 @@ export default {
 
     this.add(
       '🛠️ Configuración y control de cambios',
-      'https://1.bp.blogspot.com/-gmQA5n7DL1o/XbCcUIrIXyI/AAAAAAAAAqQ/uflLUkEMkbU-7CATkbgoUnMK3LBQQDH1ACEwYBhgL/s1600/51022789-la-configuraci%25C3%25B3n-del-programa-icono-de-dibujos-animados-.jpg',
+      'https://previews.123rf.com/images/rastudio/rastudio1708/rastudio170809252/84748293-icono-de-l%C3%ADnea-de-vector-de-configuraci%C3%B3n-de-equipo-aislado-sobre-fondo-blanco-icono-de-l%C3%ADnea-de-configurac.jpg',
       1
     )
 

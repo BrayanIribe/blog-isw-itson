@@ -10,7 +10,96 @@
           </p>
           <p class='block mt-3'>👨‍🏫️ Docente: Verónica Sierra García.</p>
         </div>
-        <Footer></Footer>
+        <Biography
+          src='https://avatars0.githubusercontent.com/u/520683?s=460&v=4'
+          href='https://github.com/BrayanIribe'
+          bgcolor='white'
+          color='black'
+          class='mb-3'
+        >
+          <p>👨‍💻️ Desarrollador y 📊 Analista.</p>
+          <p>Brayan Alexis Iribe Ruiz.</p>
+        </Biography>
+        <Biography
+          src='assets/mavely.jpg'
+          bgcolor='white'
+          color='black'
+          class='mb-3'
+        >
+          <p>📊 Analista.</p>
+          <p>Alexa Mavely Sanchez Bojorquez.</p>
+        </Biography>
+        <Biography
+          src='assets/paul.jpg'
+          bgcolor='white'
+          color='black'
+          class='mb-3'
+        >
+          <p>📝 Documentación.</p>
+          <p>Paul Alejandro Becerra Candia.</p>
+        </Biography>
+        <Biography
+          src='assets/chafino.jpg'
+          bgcolor='white'
+          color='black'
+          class='mb-3'
+        >
+          <p>🎨 Diseñador.</p>
+          <p>Héctor Daniel Chafino Orduño.</p>
+        </Biography>
+        <Biography
+          src='assets/soqui.jpeg'
+          bgcolor='white'
+          color='black'
+          class='mb-3'
+        >
+          <p>📝 Documentación.</p>
+          <p>Rafael García Soqui.</p>
+        </Biography>
+        <h3
+          style='font-weight:lighter'
+          class='mt-4 mb-5'
+        >👨‍💻️ Tecnologías utilizadas</h3>
+        <Biography
+          src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'
+          href='https://github.com'
+          bgcolor='white'
+          color='black'
+          class='mb-3'
+        >
+          <p>✅ Github Pages.</p>
+          <p>Gracias a Github Pages este proyecto fue posible. Nos ofreció hospedaje gratuito 🚀 deployments rápidos.</p>
+        </Biography>
+        <Biography
+          src='https://cdn.changelog.com/uploads/icons/topics/nnG/icon_large.png?v=63694227909'
+          href='https://vuejs.org'
+          bgcolor='white'
+          color='black'
+          class='mb-3'
+        >
+          <p>✅ Vue.js.</p>
+          <p>Gracias al framework Vue.js, este proyecto es una realidad. Aceleró de una manera radical el desarrollo y se mantiene el código organizado gracias a sus estándares.</p>
+        </Biography>
+        <Biography
+          src='https://bootstrap-vue.js.org/_nuxt/icons/icon_512.67aef2.png'
+          href='https://bootstrap-vue.js.org/'
+          bgcolor='white'
+          color='black'
+          class='mb-3'
+        >
+          <p>✅ BootrstrapVue.</p>
+          <p>Gracias al framework BootstrapVue se pudo ahorrar mucho tiempo en el diseño del sitio web.</p>
+        </Biography>
+        <Biography
+          src='http://ww.monterrey2016.com/sites/default/files/sites/default/files/images/equipos/logos/logo_potros_itson_1.png'
+          href='https://itson.mx'
+          bgcolor='white'
+          color='black'
+          class='mb-3'
+        >
+          <p>✅ Orgullosamente Potros ITSON.</p>
+          <p>Somos alumnos del ITSON, cursando el primer semestre (2019) de la licenciatura Ingeniería en Software.</p>
+        </Biography>
       </div>
     </div>
   </div>

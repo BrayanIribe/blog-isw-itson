@@ -168,6 +168,19 @@ body {
     rgba(0, 0, 0, 0) 20%,
     rgba(0, 0, 0, 0.5)
   );
+  opacity: 1;
+}
+
+.carousel-control-prev-icon {
+  width: 60px;
+  height: 60px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e");
+}
+
+.carousel-control-next-icon {
+  width: 60px;
+  height: 60px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
 }
 
 .carousel-control-next {
@@ -176,6 +189,7 @@ body {
     rgba(0, 0, 0, 0) 20%,
     rgba(0, 0, 0, 0.5)
   );
+  opacity: 1;
 }
 
 .carousel-caption > * {

@@ -22,7 +22,6 @@
         href='https://www.youtube.com/watch?v=7paA_3VxSrQ'
       >Ingenieros2011 (2016). Ejemplo RUP. 2019, de Youtube.</Biography>
     </b-container>
-    <Footer></Footer>
   </div>
 </template>
 

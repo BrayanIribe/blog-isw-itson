@@ -37,7 +37,7 @@ export default {
   },
   created() {
     this.$routes.map((route) => {
-      if (route.path !== '/') this.routes.push(route)
+      if (route.path !== '/' && route.path !== '*') this.routes.push(route)
     })
   }
 }

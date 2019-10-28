@@ -30,7 +30,6 @@
         >Ir a la oferta académica de ISW del ITSON.</a>
       </p>
     </b-container>
-    <Footer></Footer>
   </div>
 </template>
 

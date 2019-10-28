@@ -36,9 +36,6 @@
           <p
             class='block'
           >El ciclo de vida del software del RUP se descompone en cuatro fases secuenciales. En cada extremo de una fase se realiza una evaluación para determinar si los objetivos de la fase se han cumplido. Una evaluación satisfactoria permite que el proyecto se mueva a la próxima fase.</p>
-          <p
-            class='block'
-          >El ciclo de vida del software del RUP se descompone en cuatro fases secuenciales.</p>
           <p class='sub-phase mb-4'>🏠 Inicio</p>
           <p
             class='block'

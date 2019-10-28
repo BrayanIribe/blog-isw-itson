@@ -1,5 +1,5 @@
 <template>
-  <div class='bio'>
+  <div class='bio' :style='bg'>
     <div class='pic' :style='image'></div>
     <div class='info'>
       <div class='quote'>
@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  props: ['src', 'href', 'white', 'bgcolor'],
+  props: ['src', 'href', 'white', 'bgcolor', 'color'],
   name: 'Biography',
   computed: {
     image() {
@@ -20,6 +20,11 @@ export default {
         `background-image: url('${this.src}'); ` +
         (this.bgcolor ? 'background-color: ' + this.bgcolor : '')
       )
+    },
+    bg() {
+      return this.bgcolor && this.color
+        ? `background-color: ${this.bgcolor}; color: ${this.color}`
+        : null
     }
   }
 }
@@ -28,7 +33,6 @@ export default {
 <style lang='scss' scoped>
 .bio {
   width: 100%;
-  height: 200px;
   border-radius: 5px;
   display: flex;
   flex-direction: row;
@@ -49,12 +53,11 @@ export default {
 .info {
   padding-left: 20px;
   width: calc(100% - 150px);
-  height: 150px;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
   flex-direction: column;
-  word-break: break-all;
+  word-break: break-word;
 }
 
 .quote {
