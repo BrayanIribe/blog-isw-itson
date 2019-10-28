@@ -100,6 +100,12 @@
           <p>✅ Orgullosamente Potros ITSON.</p>
           <p>Somos alumnos del ITSON, cursando el primer semestre (2019) de la licenciatura Ingeniería en Software.</p>
         </Biography>
+        <h3 class='mb-5'>
+          <a
+            href='https://github.com/BrayanIribe/blog-isw-itson'
+            class='text-white'
+          >👀 ¿Interesado en ver el código del proyecto? Da clic aquí! ✅</a>
+        </h3>
       </div>
     </div>
   </div>
