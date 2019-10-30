@@ -91,11 +91,7 @@ export default {
       1
     )
 
-    this.add(
-      '🚀 Despliegue',
-      'https://1.bp.blogspot.com/-lN48aNVR4r0/XbCcVD9o_4I/AAAAAAAAAqk/9Bs9w2-w2scMCNdGJGgbY4L-NOPZyR3HACEwYBhgL/s1600/man-1351346_960_720.png',
-      1
-    )
+    this.add('🚀 Despliegue', 'assets/despliegue.jpeg', 1)
 
     this.add(
       '💼 Gestión del proyecto',
@@ -111,7 +107,7 @@ export default {
 
     this.add(
       '🌎 Ambiente',
-      'https://1.bp.blogspot.com/-nNuNJd4wCWI/XbCcUoQkITI/AAAAAAAAAqY/ezfSETgf1eEqAJEQNs92d1fDqdME0djeQCEwYBhgL/s1600/contenidotexto.jpg',
+      'http://www.paginasinternetpuertorico.com/wp-content/uploads/2016/10/administracion-y-mantenimiento-paginas-web-puerto-rico.png',
       1
     )
   }

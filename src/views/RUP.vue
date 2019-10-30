@@ -140,15 +140,15 @@
             src='http://dsc.itmorelia.edu.mx/web/images/logo.png'
             href='http://dsc.itmorelia.edu.mx/~jcolivares/courses/pm10a/rup.pdf'
             style='border: 2px solid white;'
-            white='yes'
             class='mb-3'
+            color='black'
             bgcolor='white'
           >Gustavo Torossi. (s/f). El Proceso Unificado de Desarrollo de Software. 2019, de Departamento de Sistemas y Computación del Instituto Tecnológico de Morelia.</Biography>
           <Biography
             src='http://3.bp.blogspot.com/-GQI9FjY84MM/Ti4rVWnVY4I/AAAAAAAAAB8/MBOTgUxDPno/s240/usac-sin-fondo.png'
             href='http://biblioteca.usac.edu.gt/tesis/08/08_0308_CS.pdf'
             style='border: 2px solid white;'
-            white='yes'
+            color='black'
             bgcolor='white'
             class='mb-3'
           >Julio Cesar Rueda Chacón. (2006). Aplicación de la metodología RUP para el desarrollo de rápido de aplicaciones. 2019, de Universidad de San Carlos de Guatemala.</Biography>
@@ -156,7 +156,7 @@
             src='http://rd.udb.edu.sv:8080/jspui/image/logo.gif'
             href='http://rd.udb.edu.sv:8080/jspui/bitstream/11715/478/1/47400_tesis.pdf'
             style='border: 2px solid white;'
-            white='yes'
+            color='black'
             bgcolor='white'
             class='mb-3'
           >Belloso Cicilia, Claudia Ivonne. (2009). Monografía sobre la metodología de desarrollo de software, rational unified proccess (RUP). 2019, de Universidad Don Bosco.</Biography>
@@ -164,24 +164,24 @@
             src='https://www.uaeh.edu.mx/images/uaeh_logo_color.png'
             href='https://repository.uaeh.edu.mx/bitstream/bitstream/handle/123456789/11150/Flujo%20de%20trabajo%20del%20análisis%20y%20diseño%20de%20Rup.pdf'
             style='border: 2px solid white;'
-            white='yes'
+            color='black'
             bgcolor='white'
             class='mb-3'
           >Sergio Demián Gracián Hernández. (2006). Flujo de trabajo del análisis y diseño del RUP. 2019, de Universidad Autónoma del Estado de Hidalgo.</Biography>
           <Biography
-            src='https://www.unam.mx/sites/default/files/images/eventos/acciones_0.jpg'
+            src='http://www.paginaspersonales.unam.mx/files/1641/general/foto.jpg'
             href='http://www.ptolomeo.unam.mx:8080/xmlui/bitstream/handle/132.248.52.100/175/A8%20Cap%C3%ADtulo%205.pdf?sequence=8'
             style='border: 2px solid white;'
-            white='yes'
             bgcolor='white'
+            color='black'
             class='mb-3'
           >s/a. (s/f). Proceso Unificado Rational Aplicado. 2019, de Repositorio digital de la Facultad de Ingeniería de la Universidad de la UNAM.</Biography>
           <Biography
             src='https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/3b/bd/a0/3bbda010-224e-f149-e1b4-ec9dcf3b649f/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/320x0w.jpg'
             href='https://youtu.be/AY5Dh3XYshk'
             style='border: 2px solid white;'
-            white='yes'
             bgcolor='white'
+            color='black'
             class='mb-3'
           >Julián Vanegas. (2016). Metodología RUP. 22 de octubre del 2019, de YouTube .</Biography>
         </div>
@@ -231,6 +231,8 @@ export default {
 .phase {
   border-top: 2px solid white;
   border-bottom: 2px solid white;
+  background: #ecf0f1;
+  color: black;
   border-radius: 2px;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
