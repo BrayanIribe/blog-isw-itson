@@ -18,6 +18,10 @@
         href='https://youtu.be/AY5Dh3XYshk'
       >Julián Vanegas. (2016). Metodología RUP. 22 de octubre del 2019, de YouTube.</Biography>
       <Biography
+        src='http://i3.ytimg.com/vi/OPNX7CtEiAU/hqdefault.jpg'
+        href='https://www.youtube.com/watch?v=OPNX7CtEiAU'
+      >Gabriela Navarro. (2016). Roles de RUP. octubre, 2019, de Youtube.</Biography>
+      <Biography
         src='https://cdn.goconqr.com/uploads/slide_property/image/735278/desktop_a2ab7898-7965-49a8-a47f-de4c93be620f.jpg'
         href='https://www.youtube.com/watch?v=7paA_3VxSrQ'
       >Ingenieros2011 (2016). Ejemplo RUP. 2019, de Youtube.</Biography>
@@ -43,6 +47,7 @@ export default {
       '🤔 ¿Qué es la metodología RUP?',
       'https://www.youtube.com/embed/AY5Dh3XYshk'
     )
+    this.add('👨‍💻 Roles de RUP', 'https://www.youtube.com/embed/OPNX7CtEiAU')
     this.add(
       '💭 ¿Cómo se usa en la vida diaria?',
       'https://www.youtube.com/embed/7paA_3VxSrQ'
