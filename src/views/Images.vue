@@ -7,6 +7,11 @@
         <div class='col-6 mb-3' v-for='(fase, i) in fases' v-bind:key='"a"+i'>
           <div class='tag-name'>{{ fase.name }}</div>
           <b-img :src='fase.src' fluid-grow></b-img>
+          <b-img
+            src='https://st2.depositphotos.com/3261171/5281/i/950/depositphotos_52818001-stock-photo-happy-businessman-looking-at-laptop.jpg'
+            fluid-grow
+            v-if='i === 3'
+          ></b-img>
         </div>
       </div>
       <hr />
