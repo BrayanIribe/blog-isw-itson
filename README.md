@@ -1,6 +1,6 @@
 # blog-isw-itson
 
-Este proyecto fue creado a partir de la asignación "Blog" en el segundo parcial de la asignatura Ingeniería en Software durante el primer semestre (2019) de la carrera Ingeniería en Software.
+Este proyecto fue creado a partir de la asignación "Blog" en el segundo parcial de la asignatura Ingeniería en Software durante el primer semestre (2019) de la carrera Ingeniería en Software en el ITSON.
 
 Este proyecto utiliza [vue-cli](https://github.com/vuejs/vue-cli) para funcionar.
 
