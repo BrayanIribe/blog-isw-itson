@@ -6,6 +6,7 @@ import RUP from "./views/RUP";
 import Poll from "./views/Poll";
 import Quiz from "./views/Quiz";
 import Activity from "./views/Activity";
+import Memorama from "./views/Memorama";
 import About from "./views/About";
 
 export default [
@@ -21,6 +22,7 @@ export default [
     component: CurricularMap,
     name: "🎓 Mapa curricular"
   },
+  { path: "/memorama", component: Memorama, name: "🃏 Memorama" },
   { path: "/about", component: About, name: "👪 Acerca de" },
   { path: "*", component: Home }
 ];
