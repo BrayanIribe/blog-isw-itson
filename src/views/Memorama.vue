@@ -1,6 +1,7 @@
 <template>
   <div style='width:100%;padding-top:2%;'>
-    <div class='main'>
+    <div class='main' style='flex-direction:column;color:white;'>
+      <h1 class='mb-3'>🃏 Memorama de la metodología de prototipos</h1>
       <div class='body'>
         <div
           v-for='(card, i) in cards'
@@ -34,6 +35,7 @@ export default {
   methods: {
     pick(card, i) {
       if (this.block || card.success) return
+      if (this.open && this.open.length && this.open[0].i === i) return
       card.show = true
       this.open.push({ i, card })
       if (this.open.length >= 2) {

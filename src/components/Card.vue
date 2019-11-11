@@ -24,7 +24,7 @@ export default {
 .x-card {
   width: 12vh;
   height: 18vh;
-  font-size: 8px;
+  font-size: 45%;
   display: flex;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
   border: 1px solid;
@@ -50,7 +50,7 @@ export default {
 .footer {
   width: 100%;
   height: 100%;
-  background-image: url('/assets/back.png');
+  background-image: url('https://i.imgur.com/nzQQD7h.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
